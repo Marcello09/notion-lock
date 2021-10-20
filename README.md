@@ -1,5 +1,5 @@
-[![Donate Bitcoin](https://img.shields.io/badge/Doar-Bitcoin-green.svg)](https://marcello09.github.io/donate-bitcoin/?amount=5&currency=BRL)
-
+[![Doar Bitcoin](https://img.shields.io/badge/Doar-Bitcoin-green.svg)](https://marcello09.github.io/donate-bitcoin/?amount=5&currency=BRL)
+[![Doar Paypal](https://img.shields.io/badge/Doar-Paypal-blue.svg)](https://www.paypal.com/donate?business=V3VEBC9N4S6ES&no_recurring=0&currency_code=BRL)
 
 # notion-lock
 
