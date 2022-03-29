@@ -8,7 +8,7 @@
 # notion-lock
 
 Simple add-on for Notion that encrypts and decrypts plain text using a password.
-It uses AES encryption in Browser, no data is send to any server during encryption or decryption. All this run local on your machine memory ;D
+It uses AES encryption in Browser, no data is send to any server during encryption or decryption. All runs locally on your machine memory ;D
 
 It is only possible to recover the data by typing the text and the correct password used to encrypt the data. 
 This allows for multiple passwords to be used for different text.
@@ -38,7 +38,7 @@ This allows for multiple passwords to be used for different text.
 4. Press the green button "Generate Text"
 5. Thats it! Your secret data is now available to you!
 
-#### Disclaimer: The add-on uses AES encryption in Browser, no data is send to any server during encryption or decryption. All this run local on your machine memory !! 
+#### Disclaimer: The add-on uses AES encryption in Browser, no data is send to any server during encryption or decryption. It runs local on your machine memory !! There is no way to recover data stored if you lose your password 
 
 # Like it?
 
