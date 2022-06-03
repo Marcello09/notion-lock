@@ -1,45 +1,47 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Marcello09/notion-lock/blob/main/README.en.md)
-[![pt](https://img.shields.io/badge/lang-pt-red.svg)](https://github.com/Marcello09/notion-lock/blob/main/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Marcello09/notion-lock/blob/main/README.md)
+[![pt](https://img.shields.io/badge/lang-pt-red.svg)](https://github.com/Marcello09/notion-lock/blob/main/README.pt-BR.md)
 
 
-[![Doar Bitcoin](https://img.shields.io/badge/Doar-Bitcoin-green.svg)](https://marcello09.github.io/donate-bitcoin/?amount=5&currency=BRL)
-[![Doar Paypal](https://img.shields.io/badge/Doar-Paypal-blue.svg)](https://www.paypal.com/donate?business=V3VEBC9N4S6ES&no_recurring=0&currency_code=BRL)
+[![Donate Bitcoin](https://img.shields.io/badge/Donate-Bitcoin-green.svg)](https://marcello09.github.io/donate-bitcoin/?amount=5&currency=USD)
+[![Donate Paypal](https://img.shields.io/badge/Donate-Paypal-blue.svg)](https://www.paypal.com/donate?business=V3VEBC9N4S6ES&no_recurring=0&currency_code=USD)
 
 # notion-lock
 
-Add-on simples do Notion que encripta um texto a partir de uma senha qualquer.
+Simple add-on for Notion that encrypts and decrypts plain text using a password.
+It uses AES encryption in Browser, no data is send to any server during encryption or decryption. All runs locally on your machine memory ;D
 
-Só é possivel recuperar o texto digitando a senha correta.
+It is only possible to recover the data by typing the text and the correct password used to encrypt the data. 
+This allows for multiple passwords to be used for different text.
 
 # How-to
 
-## Adicionando ao notion
+## Adding it to notion
 
-1. Adicione a URL https://marcello09.github.io/notion-lock/ como embeded no seu Notion em qualquer pagina que quiser.
-2. Redimensione o frame da maneira que preferir
-3. Acabou =D
+1. Add the URL https://marcello09.github.io/notion-lock/en as an embedded view on any page of Notion.
+2. Resize the frame to your liking.
+3. you are done! =D
 
-## Encriptar texto
+## Encrypt text
 
-1. Digite uma senha que você usará para encriptar ou desencriptar seus textos
-2. Digite o texto que deseja encriptar
-3. Selecione o checkbox "Encriptar"
-4. Pressione o botão "Gerar texto"
-5. Copie o texto que aparece abaixo do resultado, ou pressione o botão "Copiar para clipboard"
-6. Salve esse texto na sua pagina do Notion.
+1. Type a password or passfrase to encrypt your data, you must remember this password and type exactly it in order to recover (decrypt)
+2. Type the text you wish to encrypt
+3. Choose the checkbox "Encrypt text"
+4. Press the blue buttom "Generate text"
+5. Copy the text below Result, this is your encrypted data, or press the buttom "Copy to Clipboard"
+6. Save the text anywhere you wish on Notion
 
-## Desencriptar texto
+## Decrypt text
 
-1. Digite a senha que usou para encriptar seu texto
-2. Digite o texto encriptado (que voce salvou no notion durante o processo de encriptar)
-3. Selecione o checkbox "Desencriptar"
-4. Pressione o botão "Gerar texto"
-5. Tana! Seu texto desencriptado está logo abaixo!
+1. Type the password or passfrase you used to encrypt your text
+2. Copy the encrypted text to the textarea field
+3. Choose the checkbox "Decrypt"
+4. Press the green button "Generate Text"
+5. Thats it! Your secret data is now available to you!
 
-#### Disclaimer: O add-on não salva qualquer dado no navegador ou servidor, ele apenas encripta uma string usando o algoritmo AES, e a senha como chave de encripção. 
+#### Disclaimer: The add-on uses AES encryption in Browser, no data is send to any server during encryption or decryption. It runs local on your machine memory !! There is no way to recover data stored if you lose your password 
 
-# Gostou?
+# Like it?
 
-* Colabore
-* De sugestoes de novos addons
-* Me ajude doando alguns trocados ;D
+* Collab
+* Suggest new addons
+* Help me with a few bucks for a coffee ;D
