@@ -36,6 +36,16 @@ Só é possivel recuperar o texto digitando a senha correta.
 4. Pressione o botão "Gerar texto"
 5. Tana! Seu texto desencriptado está logo abaixo!
 
+# Preocupado que eu delete esse repositório?
+
+Alguns usuários entraram em contato comigo me perguntando qual a garantia de armazenagem dos dados sensíveis deles, uma vês que este é um projeto hospedado no Github Pages. Eu não posso garantir que esse repositório irá ficar ligado para sempre nem que o github pages sempre funcionará.
+
+Para resolver o problema de mim deletando o repositório, apesar de não ter a intenção de fazer isso, você sempre pode fazer um fork desse repositorio. Você terá o repositório na sua conta do github, e então poderá ativar o github pages no projeto.
+
+Aqui está um tutorial de como configurar o Github Pages no seu projeto caso você não saiba: [Início rápido para o Github Pages](https://docs.github.com/pt/pages/quickstart)
+
+O script está todo em um único arquivo index.html, então caso você tenha algum serviço de hospedagem contratado, você pode colocar este arquivo no seu servidor e não depender do github pages.
+
 #### Disclaimer: O add-on não salva qualquer dado no navegador ou servidor, ele apenas encripta uma string usando o algoritmo AES, e a senha como chave de encripção. 
 
 # Gostou?
